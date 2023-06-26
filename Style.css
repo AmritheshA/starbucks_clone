@@ -1,0 +1,658 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: SoDoSans_Light, Helvetic;
+}
+
+.Main {
+    background: #f8f9fa;
+    width: 100%;
+    height: 100vh;
+}
+
+header {
+    display: flex;
+    width: 100%;
+    height: 10%;
+    top: 0;
+    background: #f8f9fa;
+    
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+.navbar {
+    width: 95%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 90px;
+    
+
+}
+
+.nav-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+}
+
+.box {
+    width: 230px;
+    height: 25px;
+    background-color: white;
+    border-radius: 30px;
+    justify-content: center;
+    padding-bottom: 10px;
+    margin-left: 500px;
+    margin-top: 20px;
+
+}
+
+.img-box {
+    width: 25px;
+    height: 20px;
+    padding-top: 8px;
+    padding-left: 5px;
+    display: inline;
+
+}
+
+.box input {
+    height: 20px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    padding-left: 15px;
+    font-family: Freight Sans;
+    font-stretch: bold;
+}
+
+.acc-logo {
+    margin-left: 120px;
+    margin-top: 20px;
+    align-content: center;
+}
+
+.header img {
+    margin-left: 50px;
+    width: 40px;
+    height: 40px;
+    margin-top: 16px;
+    margin-left: 140px;
+}
+
+.navi-bottom {
+    width: 100%;
+    height: 10%;
+    background: #343a40;
+    display: flex;
+    gap: 900px;
+
+
+}
+
+#p1 {
+    font-family: SoDoSans_Light, Helvetic;
+    font-size: 20px;
+    margin-left: 150px;
+    margin-top: 25px;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+
+.button {
+
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    width: 121px;
+    height: 35px;
+    background-color: #343a40;
+    margin: 13px 0px 0px -75px;
+}
+
+.button1 {
+    border-radius: 50px;
+    border-color: inherit;
+
+}
+
+#p2 {
+    font-family: SoDoSans_Light, Helvetic;
+    font-size: 18px;
+    font-weight: 400;
+    font-style: bold;
+    margin-top: 25px;
+    width: 100px;
+    height: 10px;
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+.Body {
+    width: 100%;
+    height: 100%;
+
+}
+
+.Body1 {
+    height: 80%;
+    width: 100%;
+    background: #f8f9fa;
+}
+
+.top-section {
+    height: 50%;
+    width: 84%;
+    /* background: #4e80b1; */
+    margin-left: 8%;
+    flex-wrap: wrap;
+    display: flex;
+    
+}
+
+.top-header {
+    width: 100%;
+    height: 10%;
+    background: #fff;
+    color: #1e3932;
+    font-family: SoDoSans_Bold, Helvetica, sans-serif
+}
+
+.text11 {
+    font-size: 25px;
+    font-family: Helvetica, sans-serif;
+    margin-left: 10px;
+    font-style: bold;
+    margin-top: 25px;
+}
+
+.Bestseller {
+    width: 16%;
+    height: 60%;
+    /* background: #1e3932; */
+    margin-left: 0.6%;
+}
+
+.Drinks {
+    width: 16%;
+    height: 60%;
+    /* background: #fd7e14; */
+    margin-left: 0.9%;
+
+
+}
+
+.Food {
+    width: 16%;
+    height: 60%;
+    /* background: blueviolet; */
+    margin-left: 0.7%;
+
+}
+
+.Merchandise {
+    width: 16%;
+    height: 60%;
+    /* background: chocolate; */
+    margin-left: 0.6%;
+}
+
+.Coffee-At-Home {
+    width: 16%;
+    height: 60%;
+    /* background: brown; */
+    margin-left: 0.6%;
+
+}
+
+.Ready-to-Eat {
+    width: 16%;
+    height: 60%;
+    /* background:rgb(13, 21, 29); */
+
+    margin-left: 0.6%;
+}
+
+.img1 {
+    width: 55%;
+    height: 60%;
+    border-radius: 50%;
+   
+
+}
+
+.text1 {
+    text-align: center;
+    font-size: 14px;
+    font-family: Quicksand;
+    margin-top: 5px;
+    margin-right: 100px;
+}
+
+.bottom-section {
+    height: 38%;
+    width: 89%;
+    background: #fd7e14;
+    margin-left: 6%;
+    display: flex;
+    border-radius: 5px;
+}
+
+.cake {
+    width: 8%;
+    height: 90%;
+}
+
+.slider_text {
+    width: 400px;
+    height: 100%;
+    margin-left: 5%;
+
+}
+
+.txt1 {
+    color: black;
+    padding-top: 25px;
+    font-family: SoDoSans_Regular, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+.middle-txt1 {
+    font-family: SoDoSans_Regular, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.txt1 {
+    font-family: SoDoSans_Regular, Helvetica, sans-serif;
+    font-size: 14px;
+
+}
+
+.order-now {
+    width: 200px;
+    height: 50px;
+    background: rgb(0, 117, 74);
+    margin: 140px 0px 0px 530px;
+    border-radius: 50px;
+}
+
+.order {
+    color: #fff;
+    align-items: center;
+    justify-content: center;
+    margin: 17px 0px 0px 60px;
+}
+
+.Body2 {
+    height: 40%;
+    width: 100%;
+    background: rgb(237, 235, 233);
+
+}
+
+.img_flower {
+    position: absolute;
+    right: 0;
+    width: 75px;
+    height: 75px;
+}
+
+.inner-potion {
+    width: 80%;
+    height: 80%;
+    background: rgb(237, 235, 233);
+    margin-left: 150px;
+}
+
+.header-1 {
+    width: 100%;
+    height: 20%;
+
+}
+
+.txt4 {
+    color: rgb(0, 117, 74);
+    font-family: SoDoSans_Regular, Helvetica, sans-serif;
+    font-size: 12.8px;
+    position: absolute;
+    right: 150px;
+    margin-top: 15px;
+
+}
+
+.txt3 {
+    font-family: SoDoSans_Regular, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    color: rgb(30, 57, 50);
+    position: absolute;
+    left: 145px;
+    margin-top: 15px;
+
+}
+
+.inner-division {
+    height: 80%;
+    width: 100%;
+    background: rgb(237, 235, 233)lue;
+    display: flex;
+    gap: 5px;
+    justify-content: space-between;
+
+}
+
+.inn-1 {
+    width: 32%;
+    height: 150px;
+    margin-top: 25px;
+    background: #fff;
+    border-radius: 10px;
+
+}
+
+.inn-2 {
+    width: 32%;
+    height: 150px;
+    margin-top: 25px;
+    background: #fff;
+    border-radius: 10px;
+
+}
+
+.inn-3 {
+    width: 32%;
+    height: 150px;
+    margin-top: 25px;
+    background: #fff;
+    border-radius: 10px;
+
+}
+
+.img11 {
+    width: 80px;
+    height: 80px;
+    border-radius: 8px;
+    margin-left: 20px;
+    margin-top: 15px;
+}
+
+.veg {
+    margin: 0px 0px 60px 10px;
+}
+
+.text123 {
+    margin: -60px 0px 0px 115px;
+    font-family: SoDoSans_Regular, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+.text1234 {
+    margin: 5px 0px 0px 115px;
+    font-family: Pike_Regular, Helvetica, sans-serif;
+    font-size: 9px;
+    color: rgb(108, 117, 125);
+}
+
+.price {
+    margin: 35px 0px 0px 25px;
+    font-family: SoDoSans_Semibold, Helvetica, sans-seri;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.pointer1 {
+    margin: -100px 0px 0px 350px;
+}
+
+.pointer {
+    margin: -100px 0px 0px -40px;
+}
+
+.pointers {
+    margin: 75px -30px 0px 0px;
+}
+
+.pointers1 {
+    padding: 0px 0px 0px 0px;
+}
+
+.items {
+    margin: -20px 0px 0px 265px;
+    background: rgb(0, 117, 74);
+    width: 96px;
+    height: 32px;
+    border-radius: 30px;
+    text-align: center;
+    color: #fff;
+}
+
+.Body3 {
+    width: 100%;
+    height: 65%;
+    background: rgb(237, 235, 233)
+}
+
+.header-2 {
+    width: 100%;
+    height: 8%;
+    background: #fff;
+}
+
+.inner-div {
+    width: 80%;
+    height: 72%;
+    background: url(Images/coffee.jpg);
+    margin-left: 10%;
+    border-radius: 8px;
+    filter: brightness(100%);
+}
+.inner-div:hover{
+    transition: .5s ease-in-out;
+    filter:brightness(65%);
+}
+
+.text21 {
+    width: 100%;
+    height: 15%;
+    background-color: rgb(237, 235, 233);
+}
+
+.para {
+    position: absolute;
+    left: 145px;
+    margin-top: 20px;
+    font-family: SoDoSans_Bold, Helvetica, sans-serif;
+    font-size: 24px;
+}
+
+.para1 {
+    position: absolute;
+    right: 150px;
+    margin-top: 20px;
+    
+}
+
+.inner-txt {
+    width: 100%;
+    height: 50%;
+    padding-top: 200px;
+    padding-left: 30px;
+}
+
+.learn-more {
+    width: 200px;
+    height: 32px;
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+
+}
+
+.hed {
+    width: 100%;
+    height: 15%;
+    background: rgb(255, 255, 255);
+}
+
+.Footer {
+    width: 100%;
+    height: 70%;
+    background: rgb(14, 56, 44)
+}
+
+.con {
+    width: 100%;
+    height: 50%;
+    /* background: rgb(28, 25, 5); */
+    display: flex;
+}
+
+.logoo {
+    width: 25%;
+    height: 80%;
+    /* background: rgb(216, 36, 36);  */
+}
+
+.img123 {
+    width: 62px;
+    height: 62px;
+    margin: 75px 0px 0px 120px;
+}
+
+.list {
+    width: 75%;
+    height: 80%;
+    /* background: rgb(255, 22, 22); */
+    display: flex;
+}
+
+.grp1 {
+    width: 20%;
+    height: 100%;
+    /* background: rgb(60, 60, 43); */
+
+
+}
+
+.grp2 {
+    width: 20%;
+    height: 100%;
+    /* background: rgb(58, 10, 60); */
+
+}
+
+.grp3 {
+    width: 20%;
+    height: 100%;
+
+
+}
+
+.grp4 {
+    width: 20%;
+    height: 100%;
+
+
+}
+
+.grp5 {
+    width: 20%;
+    height: 100%;
+}
+
+.head {
+    color: #fff;
+    font-family: SoDoSans_Semibold, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 80px;
+}
+
+.lii {
+    font-family: SoDoSans_Light, Helvetica, sans-serif;
+    font-size: 14px;
+    color: rgb(255 255 255);
+    line-height: 30px;
+    margin-top: 10px;
+}
+
+.social {
+    width: 200px;
+    height: 50px;
+    display: flex;
+    padding-top: 10px;
+}
+
+.insta {
+    width: 50px;
+    height: 40px;
+
+}
+
+.fb {
+    width: 50px;
+    height: 40px;
+
+}
+
+.twitter {
+    width: 50px;
+    height: 40px;
+}
+
+.bottom1 {
+    margin-top: 80px;
+    margin-left: 7.5%;
+    width: 85%;
+    height: 20%;
+    /* background: rgb(251, 255, 7); */
+    border-top: 1px solid #a0a0a0;
+}
+
+.bttm {
+    padding-top: 20px;
+    width: 100%;
+    height: 40%;
+    /* background: blue; */
+}
+
+ul.bottom-ul {
+    display: flex;
+
+}
+
+ul.bottom-ul li {
+    border-right: 1px solid;
+    padding-right: 15px;
+    margin-left: 10px;
+    font-family: SoDoSans_Light, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #fff;
+}
+
+.last {
+    color: white;
+    position: absolute;
+    right: 110px;
+    margin-top: -10px;
+    font-family: SoDoSans_Light, Helvetica, sans-serif;
+    font-size: 9.5px;
+}
